@@ -25,25 +25,38 @@
   <div class="alinharboxes">
     <div class='boxes'>
 
-      <div class='box1'>
-        Supervisor
-        Monitors activity to identify project roadblocks
-      </div>
+      <div class='boxeshorizontal'>
+        <div class="alinharbox2">
+          <div class='box2'>
+            Supervisor
+            Monitors activity to identify project roadblocks
+          </div>
+        </div>
 
-      <div class='box2'>
-        Team Builder
-        Scans our talent network to create the optimal team for your project
-      </div>
+        <div class='boxesmeio'>
+          <div class='alinharbox1'>
+            <div class='box1'>
+              Team Builder
+              Scans our talent network to create the optimal team for your project
+            </div>
+          </div>
+  
+          <div class="alinharbox4">
+            <div class='box4'>
+              Karma
+              Regularly evaluates our talent to ensure quality
+            </div>
+          </div>
+        </div>
+  
 
-      <div class='box3'>
-        Karma
-        Regularly evaluates our talent to ensure quality
-      </div>
-
-      <div class='box4'>
-        Calculator
-        Uses data from past projects to provide better delivery estimates
-      </div>
+        <div class='alinharbox3'>
+          <div class='box3'>
+            Calculator
+            Uses data from past projects to provide better delivery estimates
+          </div>
+        </div>
+      </div>     
     </div>
   </div>
 
@@ -95,7 +108,7 @@
     }
 
     .boxes {
-      width: 1200px;
+      width: 1400px;
       height: 900px;
       display: flex;
       flex-direction: column;
@@ -111,28 +124,61 @@
       width: 350px;
       height: 250px;
       background-color: white;
-      box-shadow: 1px 1px 20px hsl(213, 8%, 78%);
+      box-shadow: 1px 10px 15px hsl(231, 23%, 89%);
+    }
+
+    .alinharbox1 {
+      display: flex;
+      flex-direction: row;
+      align-self: start;
+      justify-self: center;
+      padding: 20px;
     }
 
     .box2 {
       width: 350px;
       height: 250px;
       background-color: white;
-      box-shadow: 1px 1px 20px hsl(213, 8%, 78%);
+      box-shadow: 1px 10px 15px hsl(231, 23%, 89%);
+    }
+
+    .boxesmeio {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .alinharbox2 {
+      align-self: center;
+      padding: 20px;
     }
 
     .box3 {
       width: 350px;
       height: 250px;
       background-color: white;
-      box-shadow: 1px 1px 20px hsl(213, 8%, 78%);
+      box-shadow: 1px 10px 15px hsl(231, 23%, 89%);
+    }
+
+    .alinharbox3 {
+      align-self: center;
+      padding: 20px;
     }
 
     .box4 {
       width: 350px;
       height: 250px;
       background-color: white;
-      box-shadow: 1px 1px 20px hsl(213, 8%, 78%);
+      box-shadow: 1px 10px 15px hsl(231, 23%, 89%);
+    }
+
+    .alinharbox4 {
+      width: 350px;
+      padding: 20px;
+    }
+
+    .boxeshorizontal {
+      display: flex;
+      flex-direction: row;
     }
 
     .attribution {
