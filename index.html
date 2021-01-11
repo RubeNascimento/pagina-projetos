@@ -28,23 +28,23 @@
       <div class='boxeshorizontal'>
         <div class="alinharbox2">
           <div class='box2'>
-            Supervisor
-            Monitors activity to identify project roadblocks
+            <h2 class="texto1">Supervisor</h2>
+            <p class="texto2">Monitors activity to identify project roadblocks</p>
           </div>
         </div>
 
         <div class='boxesmeio'>
           <div class='alinharbox1'>
             <div class='box1'>
-              Team Builder
-              Scans our talent network to create the optimal team for your project
+              <h2 class="texto1">Team Builder</h2>
+              <p class="texto2">Scans our talent network to create the optimal team for your project</p>
             </div>
           </div>
   
           <div class="alinharbox4">
             <div class='box4'>
-              Karma
-              Regularly evaluates our talent to ensure quality
+              <h2 class="texto1">Karma</h2>
+              <p class="texto2">Regularly evaluates our talent to ensure quality</p>
             </div>
           </div>
         </div>
@@ -52,8 +52,8 @@
 
         <div class='alinharbox3'>
           <div class='box3'>
-            Calculator
-            Uses data from past projects to provide better delivery estimates
+            <h2 class="texto1">Calculator</h2>
+            <p class="texto2">Uses data from past projects to provide better delivery estimates</p>
           </div>
         </div>
       </div>     
@@ -73,6 +73,7 @@
       font-weight: 400;
       color: hsl(234, 12%, 34%);
       background-color: hsl(0, 0%, 98%);
+      padding: 75px;
     }
 
     .meiodapagina {
@@ -109,7 +110,7 @@
 
     .boxes {
       width: 1400px;
-      height: 900px;
+      height: 600px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -127,6 +128,10 @@
       box-shadow: 1px 10px 15px hsl(231, 23%, 89%);
       border-radius: 10px;
       border-top: 4px solid hsl(0, 78%, 62%);
+      background-image: url(/images/icon-team-builder.svg);
+      background-repeat: no-repeat;
+      background-position-x: 250px;
+      background-position-y: 150px;
     }
 
     .alinharbox1 {
@@ -144,6 +149,10 @@
       box-shadow: 1px 10px 15px hsl(231, 23%, 89%);
       border-radius: 10px;
       border-top: 4px solid hsl(180, 62%, 55%);
+      background-image: url(/images/icon-supervisor.svg);
+      background-repeat: no-repeat;
+      background-position-x: 250px;
+      background-position-y: 150px;
     }
 
     .boxesmeio {
@@ -163,6 +172,10 @@
       box-shadow: 1px 10px 15px hsl(231, 23%, 89%);
       border-radius: 10px;
       border-top: 4px solid hsl(212, 86%, 64%);
+      background-image: url(/images/icon-calculator.svg);
+      background-repeat: no-repeat;
+      background-position-x: 250px;
+      background-position-y: 150px;
     }
 
     .alinharbox3 {
@@ -177,6 +190,10 @@
       box-shadow: 1px 10px 15px hsl(231, 23%, 89%);
       border-radius: 10px;
       border-top: 4px solid hsl(34, 97%, 64%);
+      background-image: url(/images/icon-karma.svg);
+      background-repeat: no-repeat;
+      background-position-x: 250px;
+      background-position-y: 150px;
     }
 
     .alinharbox4 {
@@ -187,6 +204,18 @@
     .boxeshorizontal {
       display: flex;
       flex-direction: row;
+    }
+
+    .texto1 {
+      margin: 30px;
+      margin-bottom: 10px;
+    }
+
+    .texto2 {
+      font-size: 14px;
+      color: hsl(229, 6%, 66%);
+      margin-left: 30px;
+      margin-top: 0
     }
 
     .attribution {
