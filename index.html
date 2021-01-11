@@ -5,34 +5,47 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet"> 
 
   <title>Project page</title>
 
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Reliable, efficient delivery Powered by Technology
+  <div class='meiodapagina'>
+    <div class='boxdetexto'>
+      <h1 class='primeiroh1'>Reliable, efficient delivery</h1>
+      <h1 class='segundoh1'>Powered by Technology</h1>
 
-  Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful
+      <p class='paragrafo'>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+    </div>
+  </div>
 
+  <div class="alinharboxes">
+    <div class='boxes'>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+      <div class='box1'>
+        Supervisor
+        Monitors activity to identify project roadblocks
+      </div>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+      <div class='box2'>
+        Team Builder
+        Scans our talent network to create the optimal team for your project
+      </div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+      <div class='box3'>
+        Karma
+        Regularly evaluates our talent to ensure quality
+      </div>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+      <div class='box4'>
+        Calculator
+        Uses data from past projects to provide better delivery estimates
+      </div>
+    </div>
+  </div>
 
 
   <footer>
@@ -40,5 +53,95 @@
       Coded by <a href="#">Nome do Aluno</a>.
     </p>
   </footer>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      color: hsl(234, 12%, 34%);
+      background-color: hsl(0, 0%, 98%);
+    }
+
+    .meiodapagina {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .boxdetexto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 550px;
+    }
+
+    .primeiroh1 {
+      font-size: 36px;
+      margin-top: 3px;
+      margin-bottom: 0;
+      font-weight: 200;
+    }
+
+    .segundoh1 {
+      font-size: 36px;
+      font-weight: 600;
+      margin-top: 3px;
+      margin-bottom: 0;
+    }
+
+    .paragrafo {
+      color: hsl(229, 6%, 66%);
+    }
+
+    .boxes {
+      width: 1200px;
+      height: 900px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .alinharboxes {
+      display: flex;
+      justify-content: center;
+    }
+
+    .box1 {
+      width: 350px;
+      height: 250px;
+      background-color: white;
+      box-shadow: 1px 1px 20px hsl(213, 8%, 78%);
+    }
+
+    .box2 {
+      width: 350px;
+      height: 250px;
+      background-color: white;
+      box-shadow: 1px 1px 20px hsl(213, 8%, 78%);
+    }
+
+    .box3 {
+      width: 350px;
+      height: 250px;
+      background-color: white;
+      box-shadow: 1px 1px 20px hsl(213, 8%, 78%);
+    }
+
+    .box4 {
+      width: 350px;
+      height: 250px;
+      background-color: white;
+      box-shadow: 1px 1px 20px hsl(213, 8%, 78%);
+    }
+
+    .attribution {
+      font-size: 11px; text-align: center;
+    }
+    
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
 </body>
 </html>
